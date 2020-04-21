@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RadioGroup xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/rg_blog_head_layout"
+    android:orientation="horizontal" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center"
+    android:padding="7dp"
+    android:background="@color/white">
+
+    <RadioButton
+        android:checked="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="3dp"
+        android:textSize="15sp"
+        android:button="@null"
+        android:gravity="center"
+        android:background="@color/mediumturquoise"
+        android:id="@+id/bt_blog_head_recommend"
+        android:layout_marginRight="25dp"
+        android:text="最新推荐"
+        android:textColor="@color/black"/>
+
+    <RadioButton
+        android:background="@color/mediumturquoise"
+        android:textSize="15sp"
+        android:padding="3dp"
+        android:button="@null"
+        android:id="@+id/bt_blog_head_hot"
+        android:layout_marginRight="25dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="本周热门"
+        android:textColor="@color/black"/>
+
+    <RadioButton
+        android:background="@color/mediumturquoise"
+        android:textSize="15sp"
+        android:padding="3dp"
+        android:button="@null"
+        android:id="@+id/bt_blog_new_blog"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="最新博客"
+        android:textColor="@color/black"/>
+</RadioGroup>

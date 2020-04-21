@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tv__new_detail_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="的付款即可见到会计师"
+                android:textSize="20sp"
+                />
+            <TextView
+                android:id="@+id/tv__new_detail_pub_date"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:layout_marginTop="10dp"
+                android:text="我发表于1天前dfadfadf"
+                android:textColor="#6a6a6a"
+                android:textSize="12sp"/>
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/try_1"
+            android:layout_width="match_parent"
+            android:layout_height="20dp"
+           />
+
+        <TextView
+            android:id="@+id/tv_new_detail_soft_title"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:background="#D9D9D9"
+            android:gravity="center_vertical"
+            android:paddingLeft="8dp"
+            android:text="相关软件"/>
+        <LinearLayout
+            android:id="@+id/ll_detail_about_softs"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+        </LinearLayout>
+        <TextView
+            android:id="@+id/tv_new_detail_related_title"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:background="#D9D9D9"
+            android:gravity="center_vertical"
+            android:paddingLeft="8dp"
+            android:text="相关推荐"/>
+        <LinearLayout
+            android:id="@+id/ll_detail_related_layout"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+        </LinearLayout>
+        <TextView
+            android:id="@+id/tv_new_detail_comment"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:background="#D9D9D9"
+            android:gravity="center_vertical"
+            android:paddingLeft="8dp"
+            android:text="评论(8)"/>
+
+        <LinearLayout
+            android:id="@+id/ll_detail_comment_layout"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>
