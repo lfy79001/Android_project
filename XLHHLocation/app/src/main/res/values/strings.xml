@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name" translatable="false">心路护航</string>
+    <string name="activityname">防酒驾及疲劳驾驶系统</string>
+    <string name="english">Anti-drunk-driving and Fatigue-driving System</string>
+</resources>
