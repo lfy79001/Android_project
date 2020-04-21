@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:gravity="center_vertical"
+        android:background="@color/colorPrimaryDark">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/white"
+            android:layout_marginLeft="10dp"
+            android:id="@+id/logo"
+
+            android:textSize="20sp"
+            android:text="SOB"/>
+
+        <ImageView
+            android:id="@+id/scan_icon"
+            android:layout_alignParentRight="true"
+            android:src="@mipmap/scan_white"
+            android:layout_marginRight="10dp"
+            android:layout_centerVertical="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:hint="搜你想搜的宝贝"
+            android:focusable="false"
+            android:textSize="14sp"
+            android:layout_toRightOf="@+id/logo"
+            android:layout_toLeftOf="@id/scan_icon"
+            android:background="@drawable/shape_edit_box_bg"
+            android:layout_height="30dp"/>
+    </RelativeLayout>
+    
+    <com.google.android.material.tabs.TabLayout
+        android:layout_width="match_parent"
+        android:id="@+id/home_indicator"
+        app:tabMode="scrollable"
+        app:tabBackground="@color/colorPrimary"
+        android:layout_height="30dp"
+        app:tabRippleColor="@color/colorTabNormal"
+        app:tabTextColor="@color/colorTabNormal"
+        app:tabSelectedTextColor="@color/colorTabSelected"
+        app:tabIndicatorColor="@color/colorTabSelected"
+        />
+    <androidx.viewpager.widget.ViewPager
+        android:overScrollMode="never"
+        android:id="@+id/home_pager"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+</LinearLayout>
